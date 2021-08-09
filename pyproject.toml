@@ -1,12 +1,13 @@
 [tool.poetry]
 name = "python-structure"
 version = "0.1.0"
-description = "My python projects structure"
+description = "My complete python projects structure"
 authors = ["Rami Menai <rami.menai@outlook.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.9"
+pytest = "^6.2.4"
 
 [tool.poetry.dev-dependencies]
 python-dotenv = "^0.19.0"
