@@ -61,9 +61,7 @@ project.
 
 ### Project structure
 
-```
-
-```
+<img src="https://i.imgur.com/TJDs5Hv.png" height="400">
 
 ### Integrated tools
 
@@ -115,13 +113,13 @@ poetry run task start
 
 ## Contributing
 
-See `CONTRIBUTING.md` for ways to get started.
+See [CONTRIBUTING.md](https://github.com/rmenai/python-structure/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the MIT License. See [LICENSE](https://github.com/rmenai/python-structure/blob/main/LICENSE) for more information.
 
 
 
