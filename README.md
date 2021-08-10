@@ -76,6 +76,7 @@ project.
 * Powerful unittests using [pytest](https://docs.pytest.org/en/6.2.x/).
 * Secure your commits with
   a [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml) github action.
+* Orginased contributions with issues and pull requests templates.
 
 <!-- GETTING STARTED -->
 
