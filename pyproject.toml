@@ -30,5 +30,6 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
 start = "python -m python-structure"
+tests = "pytest python_structure/tests/"
 lint = "pre-commit run --all-files"
 precommit = "pre-commit install"
