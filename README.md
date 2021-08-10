@@ -73,8 +73,9 @@ project.
 
 * Easily manage your environment variables using [.env](https://pypi.org/project/python-dotenv/).
 * [Colourful](https://pypi.org/project/colorlog/) console logging and rotating log files.
-* Powerful unittests using [pytest](https://docs.pytest.org/en/6.2.x/) and the built
-  in [unittest](https://docs.python.org/3/library/unittest.html).
+* Powerful unittests using [pytest](https://docs.pytest.org/en/6.2.x/).
+* Secure your commits with
+  a [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml) github action.
 
 <!-- GETTING STARTED -->
 
