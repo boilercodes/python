@@ -1,0 +1,69 @@
+name: Lint & Test
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  lint-test:
+    name: Lint & Test
+    runs-on: ubuntu-latest
+    env:
+      # Configure pip to cache dependencies and do a user install
+      PIP_NO_CACHE_DIR: false
+      PIP_USER: 1
+
+      # Disable Poetry virtualenv creation
+      POETRY_VIRTUALENVS_CREATE: false
+
+      # Specify explicit paths for python dependencies and the pre-commit
+      # environment so we know which directories to cache
+      PYTHONUSERBASE: ${{ github.workspace }}/.cache/py-user-base
+      PRE_COMMIT_HOME: ${{ github.workspace }}/.cache/pre-commit-cache
+
+    steps:
+      - name: Add custom PYTHONUSERBASE to PATH
+        run: echo '${{ env.PYTHONUSERBASE }}/bin/' >> $GITHUB_PATH
+
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up Python 3.9
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.9
+
+      # Only when the context is exactly the same, we will restore the cache.
+      - name: Python dependencies caching
+        uses: actions/cache@v2
+        id: python_cache
+        with:
+          path: ${{ env.PYTHONUSERBASE }}
+          key: "python-0-${{ runner.os }}-${{ env.PYTHONUSERBASE }}-\
+                ${{ steps.python.outputs.python-version }}-\
+                ${{ hashFiles('./pyproject.toml', './poetry.lock') }}"
+
+      # Install our dependencies if we did not restore a dependency cache.
+      - name: Install dependencies using poetry
+        if: steps.python_cache.outputs.cache-hit != 'true'
+        run: |
+          pip install poetry
+          poetry install --no-interaction
+
+      # Only when the context is exactly the same, we will restore the cache.
+      - name: Pre-commit environment caching
+        uses: actions/cache@v2
+        with:
+          path: ${{ env.PRE_COMMIT_HOME }}
+          key: "precommit-0-${{ runner.os }}-${{ env.PRE_COMMIT_HOME }}-\
+              ${{ steps.python.outputs.python-version }}-\
+              ${{ hashFiles('./.pre-commit-config.yaml') }}"
+
+      # As pre-commit does not support user installs, we set
+      # PIP_USER=0 to not do a user install.
+      - name: Run pre-commit hooks
+        run: export PIP_USER=0; poetry run task lint
+
+      - name: Run tests with pytest
+        run: poetry run task tests
