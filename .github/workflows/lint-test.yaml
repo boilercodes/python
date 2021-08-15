@@ -2,13 +2,13 @@ name: Lint & Test
 
 on:
   push:
-    paths:
-      - 'python_structure/**'
-      - 'pyproject.toml'
-      - 'poetry.lock'
-      - 'Dockerfile'
-      - '.pre-commit-config.yaml'
-      - 'tox.ini'
+    paths-ignore:
+      - 'README.md'
+      - 'LICENSE'
+      - 'CONTRIBUTING.md'
+      - 'CODE_OF_CONDUCT.md'
+      - '.gitignore'
+      - '.github/**'
 
   pull_request:
 
