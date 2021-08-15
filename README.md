@@ -14,9 +14,9 @@
     <br />
     <a href="https://github.com/rmenai/python-structure">View Demo</a>
     ·
-    <a href="https://github.com/rmenai/python-structure/issues">Report Bug</a>
+    <a href="https://github.com/rmenai/python-structure/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai/python-structure/issues">Request Feature</a>
+    <a href="https://github.com/rmenai/python-structure/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 </p>
 
@@ -26,15 +26,6 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#project-structure">Project structure</a></li>
-      </ul>
-        <ul>
-        <li><a href="#integrated-tools">Integrated tools</a></li>
-      </ul>
-        <ul>
-        <li><a href="#special-features">Special features</a></li>
-      </ul>
     </li>
     <li>
       <a href="#getting-started">Getting Started</a>
@@ -46,7 +37,6 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -59,24 +49,20 @@
 This is my main projects structure. It is pretty much complete, containing all the tools you need for a professional
 project.
 
-### Project structure
-
-<img src="https://i.imgur.com/TJDs5Hv.png" height="400">
-
-### Integrated tools
+Project features:
 
 * [Poetry](https://python-poetry.org/) for dependency management.
 * [Docker](https://www.docker.com/) for container packaging.
-* [pre-commit](https://pre-commit.com/) and [flake8](https://flake8.pycqa.org/en/latest/) for git hooks and linting.
+* [.env](https://pypi.org/project/python-dotenv/) for environment variables.
+* [Colorlog](https://pypi.org/project/colorlog/) for colorful logging.
+* [Pytest](https://docs.pytest.org/en/6.2.x/) for writing powerful tests.
 
-### Special features
+GitHub features:
 
-* Easily manage your environment variables using [.env](https://pypi.org/project/python-dotenv/).
-* [Colourful](https://pypi.org/project/colorlog/) console logging and rotating log files.
-* Powerful unittests using [pytest](https://docs.pytest.org/en/6.2.x/).
-* Secure your commits with
-  a [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml) github action.
-* Orginased contributions with issues and pull requests templates.
+* [pre-commit](https://pre-commit.com/) and [flake8](https://flake8.pycqa.org/en/latest/) for git hooks linting.
+* [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml)
+  and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) github
+  workflows.
 
 <!-- GETTING STARTED -->
 
@@ -101,13 +87,12 @@ project.
    ```shell
    poetry run task precommit
    ```
-4. Now change the files and options according to your project
 
 <!-- USAGE EXAMPLES -->
 
 ## Usage
 
-Now you are done! You can start your project and run it using
+Now you are done! You can start coding your project and run it using
 
 ```shell
 poetry run task start
@@ -121,12 +106,5 @@ See [CONTRIBUTING.md](https://github.com/rmenai/python-structure/blob/main/CONTR
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai/python-structure/blob/main/LICENSE) for more information.
-
-
-
-<!-- CONTACT -->
-
-## Contact
-
-Menai Rami - [@menai_rami](https://twitter.com/menai_rami) - rami.menai@outlook.com
+Distributed under the MIT License. See [LICENSE](https://github.com/rmenai/python-structure/blob/main/LICENSE) for more
+information.
