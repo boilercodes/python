@@ -1,6 +1,6 @@
 # Contributing guidelines
 
-Thank you for your interest in our projects!
+Thank you for your interest in this project!
 
 If you are interested in contributing, **this page contains the golden rules to follow when contributing**. Do note that
 failing to comply with our guidelines may lead to a rejection of the contribution.
