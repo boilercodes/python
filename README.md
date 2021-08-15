@@ -89,6 +89,14 @@ GitHub features:
    poetry run task precommit
    ```
 
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file.
+
+| Settings | Description                   | Required |
+|----------|-------------------------------|----------|
+| DEBUG    | Toggles debug mode in logging | No       |
+
 <!-- USAGE EXAMPLES -->
 
 ## Usage
