@@ -20,6 +20,11 @@ jobs:
           echo "Renaming the project with -a ${{ github.repository_owner }} -n ${{ github.event.repository.name }}"
           bash .github/temp/rename_project.sh -a ${{ github.repository_owner }} -n ${{ github.event.repository.name }} -d "Awesome ${{ github.event.repository.name }} created by ${{ github.repository_owner }}"
 
+      - name: Delete temp files
+        run: |
+          rm -r .github/temp
+          rm .github/workflows/rename.yaml
+
       - name: Get last commit message
         id: last-commit-message
         run: |

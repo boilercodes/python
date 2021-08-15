@@ -46,7 +46,7 @@ sed -i "s/python_structure/$folder/g" python_structure/__init__.py
 mv python_structure "$folder"
 
 # Change README.md
-cp -f .github/README.md README.md # Override file
+cp -f .github/temp/README.md README.md # Override file
 sed -i "s/Python Structure/$title/g" README.md
 sed -i "s/The most complete python projects structure/$description/g" README.md
 sed -i "s|https://github.com/rmenai/python-structure|https://github.com/$repo|g" README.md # Separator is |
