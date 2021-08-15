@@ -49,6 +49,9 @@
 This is my main projects structure. It is pretty much complete, containing all the tools you need for a professional
 project.
 
+Also, when you use this template, this README and most of the files will be modified by a workflow to match your
+project.
+
 Project features:
 
 * [Poetry](https://python-poetry.org/) for dependency management.
@@ -61,7 +64,7 @@ GitHub features:
 
 * [pre-commit](https://pre-commit.com/) and [flake8](https://flake8.pycqa.org/en/latest/) for git hooks linting.
 * [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml)
-  and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) github
+  and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) GitHub
   workflows.
 
 <!-- GETTING STARTED -->
