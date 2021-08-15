@@ -18,7 +18,6 @@
     ·
     <a href="https://github.com/rmenai/python-structure/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
-</p>
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
@@ -37,6 +36,7 @@
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
@@ -109,3 +109,9 @@ See [CONTRIBUTING.md](https://github.com/rmenai/python-structure/blob/main/CONTR
 
 Distributed under the MIT License. See [LICENSE](https://github.com/rmenai/python-structure/blob/main/LICENSE) for more
 information.
+
+<!-- CONTACT -->
+
+## Contact
+
+Menai Rami - [@menai_rami](https://twitter.com/menai_rami) - rami.menai@outlook.com
