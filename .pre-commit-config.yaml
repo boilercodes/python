@@ -14,7 +14,7 @@ repos:
     hooks:
       - id: flake8
         name: Flake8
-        description: This hook runs flake8 within our project's poetry environment.
+        description: This hook runs flake8 within this project's poetry environment.
         entry: poetry run flake8
         language: system
         types: [ python ]
