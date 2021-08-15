@@ -45,9 +45,6 @@ sed -i "s/python_structure/$folder/g" python_structure/__init__.py
 # Rename python_structure
 mv python_structure "$folder"
 
-# Rename Lint & Test workflow
-sed -i "s/python_structure/$folder/g" .github/workflows/lint-test.yaml
-
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file
 sed -i "s/Python Structure/$title/g" README.md
