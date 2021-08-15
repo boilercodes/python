@@ -47,10 +47,8 @@
 ## About The Project
 
 This is my main projects structure. It is pretty much complete, containing all the tools you need for a professional
-project.
-
-Also, when you use this template, this README and most of the files will be modified by a workflow to match your
-project.
+project. Also, when you use this template, this README and most of the files will be modified by a workflow to match
+your project.
 
 Project features:
 
