@@ -42,11 +42,11 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          cache-from: type=registry,ref=ghcr.io/rmenai/crypto-bots:latest
+          cache-from: type=registry,ref=ghcr.io/${{ github.repository }}:latest
           cache-to: type=inline
           tags: |
-            ghcr.io/rmenai/crypto-bots:latest
-            ghcr.io/rmenai/crypto-bots:${{ steps.sha_tag.outputs.tag }}
+            ghcr.io/${{ github.repository }}:latest
+            ghcr.io/${{ github.repository }}:${{ steps.sha_tag.outputs.tag }}
 
 #  deploy:
 #    needs: build
@@ -68,7 +68,7 @@ jobs:
 #      - name: Push Image to Heroku
 #        uses: akhilerm/tag-push-action@v1.0.0
 #        with:
-#          src: ghcr.io/rmenai/crypto-bots:latest
+#          src: ghcr.io/${{ github.repository }}:latest
 #          dst: registry.heroku.com/${{ secrets.HEROKU_APP_NAME }}/worker
 #
 #      - name: Authenticate to Heroku
