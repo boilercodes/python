@@ -64,6 +64,7 @@ GitHub features:
 * [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml)
   and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) GitHub
   workflows.
+* [Dependabot](https://dependabot.com/) automated dependency updates.
 
 <!-- GETTING STARTED -->
 
