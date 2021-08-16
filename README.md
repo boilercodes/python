@@ -65,6 +65,8 @@ GitHub features:
   and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) GitHub
   workflows.
 * [Dependabot](https://dependabot.com/) automated dependency updates.
+* [Issues](https://github.com/rmenai/python-structure/tree/main/.github/ISSUE_TEMPLATE)
+  and [pull requests](https://github.com/rmenai/python-structure/tree/main/.github/PULL_REQUEST_TEMPLATE) templates.
 
 <!-- GETTING STARTED -->
 
