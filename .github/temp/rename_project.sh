@@ -45,6 +45,9 @@ sed -i "s/python_structure/$folder/g" python_structure/__init__.py
 # Rename python_structure
 mv python_structure "$folder"
 
+# Change SECURITY.md
+sed -i "s/rmenai/$author/g" SECURITY.md
+
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file
 sed -i "s/Python Structure/$title/g" README.md
