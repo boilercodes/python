@@ -48,8 +48,11 @@ mv python_structure "$folder"
 # Change SECURITY.md
 sed -i "s/rmenai/$author/g" SECURITY.md
 
+# Change .github/pull_request_template.md
+sed -i "s|rmenai/python-structure|$repo|g" .github/pull_request_template.md
+
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file
 sed -i "s/Python Structure/$title/g" README.md
 sed -i "s/The most complete python projects structure/$description/g" README.md
-sed -i "s|https://github.com/rmenai/python-structure|https://github.com/$repo|g" README.md # Separator is |
+sed -i "s|rmenai/python-structure|$repo|g" README.md # Separator is |

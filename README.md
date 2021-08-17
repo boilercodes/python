@@ -66,7 +66,7 @@ GitHub features:
   workflows.
 * [Dependabot](https://dependabot.com/) automated dependency updates.
 * [Issues](https://github.com/rmenai/python-structure/tree/main/.github/ISSUE_TEMPLATE)
-  and [pull requests](https://github.com/rmenai/python-structure/tree/main/.github/PULL_REQUEST_TEMPLATE) templates.
+  and [pull requests](https://github.com/rmenai/python-structure/blob/main/.github/pull_request_template.md) templates.
 
 <!-- GETTING STARTED -->
 
