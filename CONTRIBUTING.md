@@ -31,7 +31,7 @@ poetry run task precommit
 Now `pre-commit` will run automatically on `git commit`
 
 ```console
-python@struct:~$ git commit -m "some commit"
+root@user:~$ git commit -m "some commit"
 Check docstring is first.................................................Passed
 Check for merge conflicts................................................Passed
 Check Toml...............................................................Passed
