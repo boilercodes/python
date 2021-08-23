@@ -67,10 +67,6 @@ The most complete python projects structure.
    ```shell
    poetry install
    ```
-3. Install the project git hooks
-   ```shell
-   poetry run task precommit
-   ```
 
 ## Environment Variables
 
@@ -84,7 +80,7 @@ To run this project, you will need to add the following environment variables to
 
 ## Usage
 
-Now you are done! You can start coding your project and run it using
+Now you are done! You can run the project using
 
 ```shell
 poetry run task start
