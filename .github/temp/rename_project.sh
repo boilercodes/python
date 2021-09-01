@@ -28,7 +28,7 @@ sed -i "s/python_structure/$folder/g" tox.ini
 sed -i "s/python-structure/$name/g" pyproject.toml
 sed -i "s/python_structure/$folder/g" pyproject.toml
 sed -i "s/My python projects structure/$description/g" pyproject.toml # Remove description
-sed -i "s/Rami Menai <rami.menai@outlook.com>/$author/g" pyproject.toml # Replace authors
+sed -i "s/rmenai <rami.menai@outlook.com>/$author/g" pyproject.toml # Replace authors
 
 # Change LICENSE
 sed -i "s/python-structure/$name/g" LICENSE
