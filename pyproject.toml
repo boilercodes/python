@@ -2,7 +2,7 @@
 name = "python-structure"
 version = "0.1.0"
 description = "My python projects structure"
-authors = ["Rami Menai <rami.menai@outlook.com>"]
+authors = ["rmenai <rami.menai@outlook.com>"]
 license = "MIT"
 
 [tool.poetry.dependencies]
