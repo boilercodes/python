@@ -404,7 +404,7 @@ python-versions = "*"
 
 [[package]]
 name = "taskipy"
-version = "1.8.1"
+version = "1.8.2"
 description = "tasks runner for python projects"
 category = "dev"
 optional = false
@@ -412,7 +412,7 @@ python-versions = ">=3.6,<4.0"
 
 [package.dependencies]
 colorama = ">=0.4.4,<0.5.0"
-mslex = ">=0.3.0,<0.4.0"
+mslex = {version = ">=0.3.0,<0.4.0", markers = "sys_platform == \"win32\""}
 psutil = ">=5.7.2,<6.0.0"
 toml = ">=0.10.0,<0.11.0"
 
@@ -446,7 +446,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "c6dc501822409aabacc79319b18fdc8d003ce5acb106fc0d5b4c9241d6fbffab"
+content-hash = "dea4d157e5d943f21841c1b7f8cc72a679e553860ecadc2dd89bb64430f9cbfa"
 
 [metadata.files]
 atomicwrites = [
@@ -654,8 +654,8 @@ snowballstemmer = [
     {file = "snowballstemmer-2.1.0.tar.gz", hash = "sha256:e997baa4f2e9139951b6f4c631bad912dfd3c792467e2f03d7239464af90e914"},
 ]
 taskipy = [
-    {file = "taskipy-1.8.1-py3-none-any.whl", hash = "sha256:2b98f499966e40175d1f1306a64587f49dfa41b90d0d86c8f28b067cc58d0a56"},
-    {file = "taskipy-1.8.1.tar.gz", hash = "sha256:7a2404125817e45d80e13fa663cae35da6e8ba590230094e815633653e25f98f"},
+    {file = "taskipy-1.8.2-py3-none-any.whl", hash = "sha256:24b899ae17908fe9a61f4dc596792d5d2afef471ecfd8c6e9abb68a9568b40b7"},
+    {file = "taskipy-1.8.2.tar.gz", hash = "sha256:36e958f646f2c435b39f748b8bbdb0b9c33a2c4a96b293427feaf48ad4e2caa0"},
 ]
 toml = [
     {file = "toml-0.10.2-py2.py3-none-any.whl", hash = "sha256:806143ae5bfb6a3c6e736a764057db0e6a0e05e338b5630894a5f779cabb4f9b"},
