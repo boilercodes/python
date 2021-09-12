@@ -14,9 +14,9 @@ TitleCaseConverter() {
 }
 
 folder="${name,,}"
-folder="${folder/-/_}"
+folder="${folder//-/_}"
 
-title="${folder/_/ }"
+title="${folder//_/ }"
 title="$(TitleCaseConverter "$title")"
 
 repo="$author/$name"
