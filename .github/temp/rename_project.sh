@@ -53,6 +53,6 @@ sed -i "s|rmenai/python-structure|$repo|g" .github/pull_request_template.md
 
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file
-sed -i "s/Python Structure/$title/g" README.md
-sed -i "s/The most complete python projects structure/$description/g" README.md
-sed -i "s|rmenai/python-structure|$repo|g" README.md # Separator is |
+sed -i "s/{title}/$title/g" README.md
+sed -i "s/{description}/$description/g" README.md
+sed -i "s|{repo}|$repo|g" README.md # Separator is |
