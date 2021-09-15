@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="{repo}">
+  <a href="https://github.com/{repo}">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     {description}
     <br />
-    <a href="{repo}"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/{repo}"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="{repo}">View Demo</a>
+    <a href="https://github.com/{repo}">View Demo</a>
     ·
-    <a href="{repo}/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/{repo}/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="{repo}/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/{repo}/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -61,7 +61,7 @@ The most complete python projects structure.
 
 1. Clone the repo
    ```shell
-   git clone {repo}.git
+   git clone https://github.com/{repo}.git
    ```
 2. Install the dependencies
    ```shell
@@ -88,11 +88,11 @@ poetry run task start
 
 ## Contributing
 
-See [CONTRIBUTING.md]({repo}/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/{repo}/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE]({repo}/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/{repo}/blob/main/LICENSE) for more
 information.
