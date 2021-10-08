@@ -13,13 +13,13 @@ WORKDIR /app
 COPY pyproject.toml poetry.lock /app/
 
 # Install dependencies and lockfile, excluding development dependencies.
-RUN poetry install --no-dev --no-interaction
+RUN ["poetry", "install", "--no-dev", "--no-interaction"]
 
 # Copy the rest of the project code
 COPY . .
 
 # Start the bot
-CMD ["python", "-m", "app"]
+CMD ["task", "start"]
 
 # Define docker persistent volumes
 VOLUME /app/app/logs
