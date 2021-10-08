@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai/python-structure">
+  <a href="https://github.com/rmenai-blueprints/python">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     The most complete python projects structure
     <br />
-    <a href="https://github.com/rmenai/python-structure"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/rmenai-blueprints/python"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai/python-structure">View Demo</a>
+    <a href="https://github.com/rmenai-blueprints/python">View Demo</a>
     ·
-    <a href="https://github.com/rmenai/python-structure/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/rmenai-blueprints/python/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai/python-structure/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/rmenai-blueprints/python/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -61,12 +61,12 @@ Project features:
 GitHub features:
 
 * [pre-commit](https://pre-commit.com/) and [flake8](https://flake8.pycqa.org/en/latest/) for git hooks linting.
-* [Lint & Test](https://github.com/rmenai/python-structure/blob/main/.github/workflows/lint-test.yaml)
-  and [Build & Push](https://github.com/rmenai/python-structure/blob/main/.github/workflows/build-push.yaml) GitHub
+* [Lint & Test](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/lint-test.yaml)
+  and [Build & Push](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/build-push.yaml) GitHub
   workflows.
 * [Dependabot](https://dependabot.com/) automated dependency updates.
-* [Issues](https://github.com/rmenai/python-structure/tree/main/.github/ISSUE_TEMPLATE)
-  and [pull requests](https://github.com/rmenai/python-structure/blob/main/.github/pull_request_template.md) templates.
+* [Issues](https://github.com/rmenai-blueprints/python/tree/main/.github/ISSUE_TEMPLATE)
+  and [pull requests](https://github.com/rmenai-blueprints/python/blob/main/.github/pull_request_template.md) templates.
 
 <!-- GETTING STARTED -->
 
@@ -81,7 +81,7 @@ GitHub features:
 
 1. Clone the repo
    ```shell
-   git clone https://github.com/rmenai/python-structure.git
+   git clone https://github.com/rmenai-blueprints/python.git
    ```
 2. Install the dependencies
    ```shell
@@ -112,13 +112,13 @@ poetry run task start
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai/python-structure/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/python/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai/python-structure/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/python/blob/main/LICENSE) for more
 information.
 
 <!-- CONTACT -->

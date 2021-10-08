@@ -4,7 +4,7 @@ on: [ push ]
 
 jobs:
   rename:
-    if: ${{ github.repository	!= 'rmenai/python-structure' }}
+    if: ${{ github.repository	!= 'rmenai-blueprints/python' }}
     runs-on: ubuntu-latest
 
     steps:

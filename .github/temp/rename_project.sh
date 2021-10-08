@@ -33,7 +33,7 @@ sed -i "s/python-structure/$name/g" LICENSE
 sed -i "s/rmenai/$author/g" SECURITY.md
 
 # Change .github/pull_request_template.md
-sed -i "s|rmenai/python-structure|$repo|g" .github/pull_request_template.md
+sed -i "s|rmenai-blueprints/python|$repo|g" .github/pull_request_template.md
 
 # Change README.md
 cp -f .github/temp/README.md README.md # Override file
