@@ -1,7 +1,7 @@
 [tool.poetry]
-name = "python-structure"
+name = "rmenai-blueprints/python"
 version = "0.1.0"
-description = "My python projects structure"
+description = "My Python template"
 authors = ["rmenai <rami.menai@outlook.com>"]
 license = "MIT"
 
