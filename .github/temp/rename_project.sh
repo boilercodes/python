@@ -27,7 +27,7 @@ sed -i "s/My Python template/$description/g" pyproject.toml # Remove description
 sed -i "s/rmenai <rami.menai@outlook.com>/$author/g" pyproject.toml # Replace authors
 
 # Change LICENSE
-sed -i "s/python-structure/$name/g" LICENSE
+sed -i "s|rmenai-blueprints/python|$name|g" LICENSE # Separator is |
 
 # Change SECURITY.md
 sed -i "s/rmenai/$author/g" SECURITY.md
