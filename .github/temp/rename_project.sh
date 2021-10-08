@@ -21,29 +21,13 @@ title="$(TitleCaseConverter "$title")"
 
 repo="$author/$name"
 
-# Change tox.ini
-sed -i "s/app/$folder/g" tox.ini
-
 # Change pyproject.toml
 sed -i "s|rmenai-blueprints/python|$name|g" pyproject.toml # Separator is |
-sed -i "s/app/$folder/g" pyproject.toml
 sed -i "s/My Python template/$description/g" pyproject.toml # Remove description
 sed -i "s/rmenai <rami.menai@outlook.com>/$author/g" pyproject.toml # Replace authors
 
 # Change LICENSE
 sed -i "s/python-structure/$name/g" LICENSE
-
-# Change Dockerfile
-sed -i "s/app/$folder/g" Dockerfile
-
-# Change .dockerignore
-sed -i "s/app/$folder/g" .dockerignore
-
-# Change app/__init__.py
-sed -i "s/app/$folder/g" app/__init__.py
-
-# Rename app
-mv app "$folder"
 
 # Change SECURITY.md
 sed -i "s/rmenai/$author/g" SECURITY.md
