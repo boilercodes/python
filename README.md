@@ -44,7 +44,7 @@
 
 ## About The Project
 
-This is my main projects structure. It is pretty much complete, containing all the tools you need for a professional
+This is my main python projects structure. It is pretty much complete, containing all the tools you need for a professional
 project.
 
 <!-- Usage -->
