@@ -29,7 +29,7 @@ requires = ["poetry-core>=1.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.taskipy.tasks]
-start = "python -m python_structure"
-tests = "pytest python_structure/tests/"
+start = "python -m app"
+tests = "pytest app/tests/"
 lint = "pre-commit run --all-files"
 precommit = "pre-commit install"

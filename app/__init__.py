@@ -10,10 +10,10 @@ import os
 from datetime import datetime
 from pathlib import Path
 
-from python_structure.config import Settings
+from app.config import Settings
 
 # Set up file logging
-log_dir = Path("python_structure/logs")
+log_dir = Path("app/logs")
 log_file = log_dir / f"{datetime.today().strftime('%d-%m-%Y')}.log"
 os.makedirs(log_dir, exist_ok=True)
 
