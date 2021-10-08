@@ -10,7 +10,7 @@ failing to comply with our guidelines may lead to a rejection of the contributio
 ## The Golden Rules of Contributing
 
 1. **Lint before you push**. We have simple but strict style rules that are enforced through linting. You must always
-   lint your code before committing or pushing. Using tools such as [flake8] and [pre-commit] can make this easier.
+   lint your code before committing or pushing.
 
 2. **Make great commits**. Great commits should be atomic, with a commit message explaining what and why.
 

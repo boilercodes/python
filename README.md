@@ -4,10 +4,10 @@
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80">
   </a>
 
-<h3 align="center">Python Structure</h3>
+<h3 align="center">Python</h3>
 
   <p align="center">
-    The most complete python projects structure
+    An interpreted high-level general-purpose programming language
     <br />
     <a href="https://github.com/rmenai-blueprints/python"><strong>Explore the docs »</strong></a>
     <br />
@@ -26,14 +26,12 @@
     <li>
       <a href="#about-the-project">About The Project</a>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
     <li><a href="#usage">Usage</a></li>
+    <li><a href="#features">Features</a></li>
+    <ul>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#github">Github</a></li>
+      </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
     <li><a href="#contact">Contact</a></li>
@@ -47,68 +45,36 @@
 ## About The Project
 
 This is my main projects structure. It is pretty much complete, containing all the tools you need for a professional
-project. Also, when you use this template, this README and most of the files will be modified by a workflow to match
-your project.
+project.
 
-Project features:
+<!-- Usage -->
 
-* [Poetry](https://python-poetry.org/) for dependency management.
+## Usage
+
+All you need to do is click on the "Use this template" button. When the repo is created a GitHub action will start. It
+will change all the files to match your repository.
+
+<!-- Features -->
+
+## Features
+
+#### Project:
+
 * [Docker](https://www.docker.com/) for container packaging.
+* [Poetry](https://python-poetry.org/) for dependency management.
 * [.env](https://pypi.org/project/python-dotenv/) for environment variables.
 * [Colorlog](https://pypi.org/project/colorlog/) for colorful logging.
 * [Pytest](https://docs.pytest.org/en/6.2.x/) for writing powerful tests.
-
-GitHub features:
-
 * [pre-commit](https://pre-commit.com/) and [flake8](https://flake8.pycqa.org/en/latest/) for git hooks linting.
+
+### GitHub:
+
 * [Lint & Test](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/lint-test.yaml)
   and [Build & Push](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/build-push.yaml) GitHub
   workflows.
 * [Dependabot](https://dependabot.com/) automated dependency updates.
 * [Issues](https://github.com/rmenai-blueprints/python/tree/main/.github/ISSUE_TEMPLATE)
   and [pull requests](https://github.com/rmenai-blueprints/python/blob/main/.github/pull_request_template.md) templates.
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-### Prerequisites
-
-* [Poetry](https://python-poetry.org/docs/)
-* [Docker](https://docs.docker.com/get-docker/) (optional)
-
-### Installation
-
-1. Clone the repo
-   ```shell
-   git clone https://github.com/rmenai-blueprints/python.git
-   ```
-2. Install the dependencies
-   ```shell
-   poetry install
-   ```
-3. Install the project git hooks
-   ```shell
-   poetry run task precommit
-   ```
-
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file.
-
-| Settings | Description                   | Required |
-|----------|-------------------------------|----------|
-| DEBUG    | Toggles debug mode in logging | No       |
-
-<!-- USAGE EXAMPLES -->
-
-## Usage
-
-Now you are done! You can start coding your project and run it using
-
-```shell
-poetry run task start
-```
 
 ## Contributing
 
