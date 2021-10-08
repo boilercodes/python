@@ -27,11 +27,14 @@
       <a href="#about-the-project">About The Project</a>
     </li>
     <li>
-      <a href="#getting-started">Getting Started</a>
+      <a href="#installation">Installation</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#using-docker">Using Docker</a></li>
+        <li><a href="#for-development">For development</a></li>
       </ul>
+    </li>
+    <li>
+      <a href="#environment-variables">Environment Variables</a>
     </li>
     <li><a href="#usage">Usage</a></li>
     <li><a href="#contributing">Contributing</a></li>
@@ -45,25 +48,33 @@
 
 ## About The Project
 
-The most complete python projects structure.
+{description}.
 
+<!-- INSTALLATION -->
 
-<!-- GETTING STARTED -->
+## Installation
 
-## Getting Started
+The first step will be to clone the repo
 
-### Prerequisites
+```shell
+git clone https://github.com/{repo}.git
+```
 
-* [Poetry](https://python-poetry.org/docs/)
-* [Docker](https://docs.docker.com/get-docker/) (optional)
+### Using Docker
 
-### Installation
+Using Docker is generally recommended (but not strictly required) because it abstracts away some additional set up work.
 
-1. Clone the repo
-   ```shell
-   git clone https://github.com/{repo}.git
-   ```
-2. Install the dependencies
+The requirements for Docker are:
+
+* [Docker CE](https://docs.docker.com/install/)
+
+### For development
+
+The requirements are:
+
+* [Python](https://www.python.org/downloads/) and [Poetry](https://python-poetry.org/docs/)
+
+1. Install the dependencies
    ```shell
    poetry install
    ```
@@ -94,5 +105,4 @@ See [CONTRIBUTING.md](https://github.com/{repo}/blob/main/CONTRIBUTING.md) for w
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/{repo}/blob/main/LICENSE) for more
-information.
+Distributed under the MIT License. See [LICENSE](https://github.com/{repo}/blob/main/LICENSE) for more information.
