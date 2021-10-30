@@ -11,7 +11,8 @@ on:
       - 'CONTRIBUTING.md'
       - 'CODE_OF_CONDUCT.md'
       - '.gitignore'
-      - '.github/**'
+      - '.github/pull_request_template.md'
+      - '.github/ISSUE_TEMPLATE/**'
 
   pull_request:
 
@@ -50,8 +51,8 @@ jobs:
         with:
           path: ${{ env.PYTHONUSERBASE }}
           key: "python-0-${{ runner.os }}-${{ env.PYTHONUSERBASE }}-\
-                ${{ steps.python.outputs.python-version }}-\
-                ${{ hashFiles('./pyproject.toml', './poetry.lock') }}"
+              ${{ steps.python.outputs.python-version }}-\
+              ${{ hashFiles('./pyproject.toml', './poetry.lock') }}"
 
       # Install our dependencies if we did not restore a dependency cache.
       - name: Install dependencies using poetry
