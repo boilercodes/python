@@ -34,6 +34,7 @@
       </ul>
     <li><a href="#contributing">Contributing</a></li>
     <li><a href="#license">License</a></li>
+    <li><a href="#acknowledgements">Acknowledgements</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
@@ -85,6 +86,12 @@ See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/python/blob/main/CONT
 
 Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/python/blob/main/LICENSE) for more
 information.
+
+<!-- ACKNOWLEDGMENTS -->
+
+## Acknowledgements
+
+ - [sir-lancebot](https://github.com/python-discord/sir-lancebot)
 
 <!-- CONTACT -->
 
