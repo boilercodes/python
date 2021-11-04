@@ -76,6 +76,9 @@ will change all the files to match your repository.
 * [Issues](https://github.com/rmenai-blueprints/python/tree/main/.github/ISSUE_TEMPLATE)
   and [pull requests](https://github.com/rmenai-blueprints/python/blob/main/.github/pull_request_template.md) templates.
 
+
+<!-- CONTRIBUTING -->
+
 ## Contributing
 
 See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/python/blob/main/CONTRIBUTING.md) for ways to get started.
