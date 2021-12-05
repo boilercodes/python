@@ -61,6 +61,7 @@ jobs:
         run: |
           pip install poetry
           poetry install --no-interaction
+
       # Only when the context is exactly the same, we will restore the cache.
       - name: Pre-commit environment caching
         uses: actions/cache@v2
