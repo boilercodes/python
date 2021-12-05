@@ -18,7 +18,7 @@ RUN ["poetry", "install", "--no-dev", "--no-interaction"]
 # Copy the rest of the project code
 COPY . .
 
-# Start the bot
+# Start the app
 CMD ["task", "start"]
 
 # Define docker persistent volumes
