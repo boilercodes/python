@@ -83,9 +83,9 @@ The requirements are:
 
 To run this project, you will need to add the following environment variables to your .env file.
 
-| Settings | Description                   | Required |
-|----------|-------------------------------|----------|
-| DEBUG    | Toggles debug mode in logging | No       |
+| Variable | Description        | Default |
+|----------|--------------------|---------|
+| DEBUG    | Toggles debug mode | False   |
 
 <!-- USAGE EXAMPLES -->
 
