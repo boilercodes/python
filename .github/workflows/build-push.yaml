@@ -12,6 +12,7 @@ on:
 jobs:
   build:
     if: github.event.workflow_run.conclusion == 'success' && github.event.workflow_run.event == 'push'
+    name: Build
     runs-on: ubuntu-latest
 
     steps:
