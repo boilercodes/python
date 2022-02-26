@@ -1,4 +1,4 @@
-name: Lint & Test
+name: Test
 
 on:
   push:
@@ -18,7 +18,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  lint-test:
+  test:
+    name: Lint & Test
     runs-on: ubuntu-latest
     env:
       # Configure pip to cache dependencies and do a user install
