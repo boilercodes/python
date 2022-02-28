@@ -8,7 +8,7 @@ license = "MIT"
 [tool.poetry.dependencies]
 python = "^3.9"
 pydantic = "^1.9.0"
-taskipy = "^1.8.2"
+taskipy = "^1.10.1"
 
 [tool.poetry.dev-dependencies]
 colorlog = "^6.5.0"
