@@ -40,3 +40,6 @@ cp -f .github/temp/README.md README.md # Override file
 sed -i "s/{title}/$title/g" README.md
 sed -i "s/{description}/$description/g" README.md
 sed -i "s|{repo}|$repo|g" README.md # Separator is |
+
+# Delete dependabot.yaml
+rm -f .github/dependabot.yaml
