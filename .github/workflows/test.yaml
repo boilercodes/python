@@ -1,21 +1,10 @@
 name: Test
 
-on:
-  push:
-    branches:
-      - main
-    paths-ignore:
-      - 'README.md'
-      - 'SECURITY.md'
-      - 'LICENSE'
-      - 'CONTRIBUTING.md'
-      - 'CODE_OF_CONDUCT.md'
-      - '.gitignore'
-      - '.github/pull_request_template.md'
-      - '.github/ISSUE_TEMPLATE/**'
+on: [push, workflow_dispatch]
 
-  pull_request:
-  workflow_dispatch:
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   test:
@@ -77,5 +66,12 @@ jobs:
       - name: Run pre-commit hooks
         run: export PIP_USER=0; poetry run task lint
 
-      - name: Run tests with pytest
-        run: poetry run task test
+      - name: Run tests with pytest and generate coverage report
+        run: |
+          poetry run task test
+          coverage xml
+
+      - name: Upload coverage reports to CodeCov
+        uses: codecov/codecov-action@v2
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }} # Only needed for private repositories.
