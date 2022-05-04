@@ -5,14 +5,17 @@ on:
     branches:
       - main
 
+permissions:
+  contents: write
+
 jobs:
   rename:
-    if: ${{ github.repository	!= 'rmenai-blueprints/python' }}
+    if: ${{ github.repository != 'rmenai-blueprints/python' }}
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v2
         with:
           # by default, it uses a depth of 1
           # this fetches all history so that we can read each commit
@@ -22,14 +25,17 @@ jobs:
         run: |
           echo "Renaming the project with -a ${{ github.repository_owner }} -n ${{ github.event.repository.name }}"
           bash .github/temp/rename_project.sh -a ${{ github.repository_owner }} -n ${{ github.event.repository.name }} -d "Awesome ${{ github.event.repository.name }} created by ${{ github.repository_owner }}"
+
       - name: Delete temp files
         run: |
           rm -r .github/temp
           rm .github/workflows/rename.yaml
+
       - name: Get last commit message
         id: last-commit-message
         run: |
           echo "::set-output name=msg::$(git log -1 --pretty=%s)"
+
       - name: Push new commit
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
