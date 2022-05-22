@@ -10,7 +10,7 @@ permissions:
 
 jobs:
   rename:
-    if: ${{ github.repository != 'rmenai-blueprints/python' }}
+    if: ${{ github.repository != 'boilercodes/python' }}
     runs-on: ubuntu-latest
 
     steps:
