@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "rmenai-blueprints/python"
+name = "boilercodes/python"
 version = "0.1.0"
 description = "My Python template"
 authors = ["rmenai <rami.menai@outlook.com>"]

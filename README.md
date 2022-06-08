@@ -1,6 +1,6 @@
 <br />
 <p align="center">
-  <a href="https://github.com/rmenai-blueprints/python">
+  <a href="https://github.com/boilercodes/python">
     <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/2048px-Python-logo-notext.svg.png" alt="Logo" width="80" height="80">
   </a>
 
@@ -9,14 +9,14 @@
   <p align="center">
     An interpreted high-level general-purpose programming language
     <br />
-    <a href="https://github.com/rmenai-blueprints/python"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/boilercodes/python"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/rmenai-blueprints/python">View Demo</a>
+    <a href="https://github.com/boilercodes/python">View Demo</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/python/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
+    <a href="https://github.com/boilercodes/python/issues/new?assignees=&labels=&template=bug_report.md&title=">Report Bug</a>
     ·
-    <a href="https://github.com/rmenai-blueprints/python/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
+    <a href="https://github.com/boilercodes/python/issues/new?assignees=&labels=&template=feature_request.md&title=">Request Feature</a>
   </p>
 
 <!-- TABLE OF CONTENTS -->
@@ -70,24 +70,24 @@ will change all the files to match your repository.
 
 ### GitHub:
 
-* [Test](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/test.yaml),
-  [Build](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/build.yaml) and
-  [Deploy](https://github.com/rmenai-blueprints/python/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
-* [Issues](https://github.com/rmenai-blueprints/python/tree/main/.github/ISSUE_TEMPLATE)
-  and [pull requests](https://github.com/rmenai-blueprints/python/blob/main/.github/pull_request_template.md) templates.
+* [Test](https://github.com/boilercodes/python/blob/main/.github/workflows/test.yaml),
+  [Build](https://github.com/boilercodes/python/blob/main/.github/workflows/build.yaml) and
+  [Deploy](https://github.com/boilercodes/python/blob/main/.github/workflows/deploy.yaml) GitHub workflows.
+* [Issues](https://github.com/boilercodes/python/tree/main/.github/ISSUE_TEMPLATE)
+  and [pull requests](https://github.com/boilercodes/python/blob/main/.github/pull_request_template.md) templates.
 
 
 <!-- CONTRIBUTING -->
 
 ## Contributing
 
-See [CONTRIBUTING.md](https://github.com/rmenai-blueprints/python/blob/main/CONTRIBUTING.md) for ways to get started.
+See [CONTRIBUTING.md](https://github.com/boilercodes/python/blob/main/CONTRIBUTING.md) for ways to get started.
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See [LICENSE](https://github.com/rmenai-blueprints/python/blob/main/LICENSE) for more
+Distributed under the MIT License. See [LICENSE](https://github.com/boilercodes/python/blob/main/LICENSE) for more
 information.
 
 <!-- ACKNOWLEDGMENTS -->
