@@ -49,8 +49,6 @@ Or you can run it manually
 poetry run task lint
 ```
 
-[flake8]: https://flake8.pycqa.org/en/latest/
-
-[pre-commit]: https://pre-commit.com/
+<!-- Packages Links -->
 
 [poetry]: https://python-poetry.org/
