@@ -1,4 +1,4 @@
-# [{title}](./README.md) &middot; [![GitHub license]](./LICENSE)
+# [{title}](./README.md) &middot; [![GitHub license]](./LICENSE) ![Test Action]
 
 <!-- Table of Contents -->
 
@@ -70,3 +70,4 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 <!-- Shields.io links -->
 
 [gitHub license]: https://img.shields.io/badge/license-MIT-blue.svg
+[test action]: https://github.com/{repo}/actions/workflows/test.yaml/badge.svg
