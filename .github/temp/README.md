@@ -34,7 +34,11 @@ Using Docker is generally recommended (but not strictly required) because it abs
 
 The requirements for Docker are:
 
-* [Docker CE](https://docs.docker.com/install/)
+* [Docker CE]
+* [Docker Compose]
+    * `pip install docker-compose`
+    * This is only a required step for linux. Docker comes bundled with docker-compose on Mac OS and Windows.
+
 
 ## Environment Variables
 
@@ -64,6 +68,8 @@ Distributed under the MIT License. See [LICENSE](./LICENSE) for more information
 
 <!-- Packages Links -->
 
+[docker ce]: https://docs.docker.com/install/
+[docker compose]: https://docs.docker.com/compose/install/
 [poetry]: https://python-poetry.org/docs/
 [python]: https://www.python.org/downloads/
 
